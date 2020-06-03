@@ -1,3 +1,3 @@
-debian/tmp/usr/libexec/audiosystem-passthrough/audiosystem-passthrough usr/lib/audiosystem-passthrough
+debian/tmp/usr/lib/audiosystem-passthrough/audiosystem-passthrough usr/lib/audiosystem-passthrough
 debian/audiosystem-passthrough.conf usr/share/upstart/sessions/audiosystem-passthrough.conf
 debian/audiosystem-passthrough-dummy-af.service lib/systemd/user/audiosystem-passthrough-dummy-af.service
