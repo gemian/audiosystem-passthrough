@@ -5,7 +5,7 @@ After=pre-user-session.target
 [Service]
 Environment=AUDIOSYSTEM_PASSTHROUGH_TYPE=af
 EnvironmentFile=-/etc/sysconfig/audiosystem-passthrough-dummy-af
-ExecStart=/usr/libexec/audiosystem-passthrough/audiosystem-passthrough --address dummy
+ExecStart=/usr/lib/audiosystem-passthrough/audiosystem-passthrough --address dummy
 Restart=always
 
 [Install]
